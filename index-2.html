@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>4 Col Portfolio - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <style>
+    @media (max-width:979px) {
+              .text{
+           display:none;
+                    }
+              .imgpri
+              {
+                display: none;
+              }
+              .imgsec
+              {
+                display: block;
+              }
+              #header-content {
+
+             bottom: 0;
+             padding-top: 60px;
+             padding-bottom: 60px;
+           }
+           .textpri
+           {
+             display: none;
+           }
+           .textsec
+           {
+             display: block;
+           }
+
+           .imgset
+           {
+             padding-bottom: 20px;
+           }
+
+           }
+
+
+           @media (min-width:980px) {
+                     .text{
+                  display:none;
+                           }
+
+                           .disoff
+                           {
+                             display: none;
+                           }
+
+                           .disoffing
+                           {
+                             display: none;
+                           }
+
+
+                  }
+    figure {
+      display: inline-block;
+      -webkit-box-shadow: inset 0 0 0 10px rgba(255,255,255, 0);
+      -moz-box-shadow: inset 0 0 0 10px rgba(255,255,255, 0);
+      box-shadow: inset 0 0 0 10px rgba(255,255,255, 0);
+
+      -webkit-transition: all .5s 0s;
+      -moz-transition: all .5s 0s;
+      transition: all .5s 0s;
+    }
+
+    figure:hover {
+      -webkit-box-shadow: inset 0 0 0 10px rgba(255,255,255, .4);
+      -moz-box-shadow: inset 0 0 0 10px rgba(255,255,255, .4);
+      box-shadow: inset 0 0 0 10px rgba(255,153,0, 1);
+    }
+
+    figure img {
+       display: block;
+       position: relative;
+       z-index: -1;
+    }
+    .col-md-2
+    {
+      text-align: center;
+    }
+     #header-content {
+
+    bottom: 0;
+   }
+   p.navbar-text {
+     font-size: 22px;
+     margin-top: 8px;
+     padding-bottom: 0;
+     text-align: right;
+     width: 70%;
+     color: orange;
+   }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+      <!-- Navigation -->
+      <header class="banner">
+    <img class="header-logo"id="logo-main" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png" width="200" alt="Logo Thing main logo">
+    <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <p class="navbar-text visible-xs-inline-block">HOME</p>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about-us.aspx">ABOUT US</a></li>
+          <li><a href="products.html">PRODUCTS</a></li>
+          <li><a href="awards.aspx">AWARDS</a></li>
+          <li><a href="main-client.html">CLIENTELE</a></li>
+          <li><a href="media.html">MEDIA</a></li>
+          <li><a href="contact-us.html">CONTACT</a></li>
+          <li><a href="Login.aspx">LOGIN</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>
+    </header><!-- header role="banner" -->
+
+        <!-- Page Heading -->
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+
+        <div class="row">
+
+         <div class="col-md-2 col-md-offset-1 col-xs-6">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150" />
+              </figure>
+          </a>
+          <div id="header-content" style="text-align: center;" class="textpri">
+          <p> Mooncake Packaging </p>
+        </div>
+        </div>
+
+         <div class="col-md-2 col-xs-6">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150" class="imgpri disoff"/>
+              </figure>
+           </a>
+           <div id="header-content" style="text-align: center;" class="disoff">
+           <p> Mooncake Packaging </p>
+         </div>
+         </div>
+         <div class="col-md-2 col-xs-6">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150" class="imgpri"/>
+              </figure>
+           </a>
+           <div id="header-content" style="text-align: center;">
+           <p> Mooncake Packaging </p>
+         </div>
+         </div>
+         <div class="col-md-2 col-xs-6 imgset">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150" class="imgsec disoff "/>
+              </figure>
+           </a>
+           <div id="header-content" style="text-align: center;" class="textpri disoff">
+           <p> Mooncake Packaging </p>
+         </div>
+
+         </div>
+         <div class="col-md-2 col-xs-6">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150" />
+              </figure>
+           </a>
+           <div id="header-content" style="text-align: center;" class="textpri">
+           <p> Mooncake Packaging </p>
+         </div>
+         </div>
+         <div class="col-md-2 col-xs-6 disoffing">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150" class="imgpri"/>
+              </figure>
+           </a>
+           <div id="header-content" style="text-align: center;" class="textsec">
+           <p> Mooncake Packaging </p>
+         </div>
+         </div>
+        </div>
+
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row" >
+
+          <div class="col-md-2 col-md-offset-1 col-xs-6">
+            <a href="#">
+              <figure>
+              <img src="http://placehold.it/150x150" class="imgpri disoff"/>
+               </figure>
+           </a>
+           <div id="header-content" class="textsec disoff"style="text-align: center;">
+           <p> Packaging 1 </p>
+         </div>
+         </div>
+          <div class="col-md-2 col-xs-6 imgset" >
+            <a href="#">
+              <figure>
+              <img src="http://placehold.it/150x150"  />
+               </figure>
+           </a>
+           <div id="header-content" class="textpri" style="text-align: center;">
+           <p>Packaging 1</p>
+         </div>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a href="#">
+              <figure>
+              <img src="http://placehold.it/150x150" class="imgsec disoff"/>
+               </figure>
+            </a>
+            <div id="header-content" class="textpri disoff" style="text-align: center;">
+            <p> Packaging 2</p>
+          </div>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a href="#">
+              <figure>
+              <img src="http://placehold.it/150x150" class="imgpri" />
+               </figure>
+           </a>
+           <div id="header-content" style="text-align: center;" class="textsec">
+           <p> Packaging 2 </p>
+         </div>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a href="#">
+              <figure>
+              <img src="http://placehold.it/150x150" style="display: none"/>
+               </figure>
+
+            </a>
+          </div>
+      </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+
+        <div class="row">
+
+         <div class="col-md-2 col-md-offset-1 col-xs-6">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150" class="imgpri" />
+              </figure>
+          </a>
+          <div id="header-content" style="text-align: center;" class="textsec">
+          <p> Packaging 1 </p>
+        </div>
+        </div>
+
+         <div class="col-md-2 col-xs-6 imgset">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150" class="imgsec disoff"/>
+              </figure>
+           </a>
+           <div id="header-content" style="text-align: center;" class="textpri disoff">
+           <p> Packaging 1 </p>
+         </div>
+         </div>
+         <div class="col-md-2 col-xs-6">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150" />
+              </figure>
+           </a>
+           <div id="header-content" style="text-align: center;" class="textpri">
+           <p> Packaging 2</p>
+         </div>
+         </div>
+         <div class="col-md-2 col-xs-6 imgset">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150" class="imgpri disoff "/>
+              </figure>
+           </a>
+           <div id="header-content" style="text-align: center;" class="textsec disoff">
+           <p> Packaging 2</p>
+         </div>
+
+         </div>
+         <div class="col-md-2 col-xs-6">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150"  class="imgpri"/>
+              </figure>
+           </a>
+           <div id="header-content" style="text-align: center;" class="textsec">
+           <p> Packaging 3</p>
+         </div>
+         </div>
+         <div class="col-md-2 col-xs-6 disoffing">
+           <a href="#">
+             <figure>
+             <img src="http://placehold.it/150x150"  />
+              </figure>
+           </a>
+           <div id="header-content" style="text-align: center;" class="textpri">
+           <p> Packaging 3</p>
+         </div>
+         </div>
+      </div>
+
+        <!-- //col-lg-20 -->
+      </div>
+
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Pagination -->
+
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

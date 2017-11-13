@@ -1,0 +1,391 @@
+﻿<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Design and Packaging Concept</title>
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <style>
+    @media (max-width:767px) {
+              .text{
+           display:none;
+          }
+          .mobilecolumn
+          {
+            display: block;
+          }
+          .webcolumn
+          {
+            display: none;
+          }
+          .container
+          {
+            padding: 0;
+          }
+          .box
+          {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+          .main
+          {
+              display: none;
+          }
+          .footer
+          {
+              display: none;
+          }
+           }
+     @media only screen 
+and (min-width : 768px) 
+and (max-width : 991px) 
+     {
+          .mobilecolumn
+          {
+            display: block;
+          }
+          .webcolumn
+          {
+            display: none;
+          }
+          .main
+          {
+              display: none;
+          }
+          .main
+          {
+              display:block;
+          }
+          .footer
+          {
+              display:none;
+          }
+     }
+        @media only screen and (min-width : 992px) and (max-width : 1199px) {
+            iframe
+            {
+                height: 260px;
+            }
+             .mobilecolumn
+          {
+            display: none;
+          }
+          .webcolumn
+          {
+            display: block;
+            width: 80%;
+            margin: auto;
+          }
+          
+        }
+           @media (min-width:1200px) {
+                     .text{
+                  display:none;
+                 }
+                 .mobilecolumn
+                 {
+                   display: none;
+                 }
+                 .webcolumn
+                 {
+                   display: block;
+                   width: 77%;
+                   margin: auto;
+                 }
+                 .box
+                 {
+                   padding: 0;
+                 }
+                  }
+     #header-content {
+    bottom: 0;
+  }
+  .text
+  {
+    border-right: 4px solid;
+    text-align: right;
+    padding-top: 300px;
+    margin-right: 30px;
+  }
+  .product
+  {
+    margin-bottom: 30px;
+  }
+  .desc
+  {
+    padding-top: 100px;
+  }
+  .controls
+  {
+    text-align: center;
+  }
+  .menucontrol
+  {
+    margin-right: 30px;
+  }
+  .client
+  {
+    margin-bottom: 20px;
+  }
+  .img-responsive
+  {
+    width: 100%;
+  }
+  .form-horizontal .control-label
+  {
+      text-align: left;
+  }
+  </style>
+  <script>
+      /* Open when someone clicks on the span element */
+      function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+      }
+
+      /* Close when someone clicks on the "x" symbol inside the overlay */
+      function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+      }
+  </script>
+</head>
+
+<body>
+<div class="container">
+    <!-- Navigation -->
+    <header class="banner">
+  <img class="header-logo"id="logo-main" src="images/logodpc.png" width="250" alt="Logo Thing main logo">
+<nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <p class="navbar-text visible-xs-inline-block">CONTACT US</p>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse" onclick="openNav()">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+      <ul class="nav navbar-nav main">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about-us.aspx">ABOUT US</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="awards.aspx">AWARDS</a></li>
+        <li><a href="main-client.html">CLIENTELE</a></li>
+        <li><a href="media.html">MEDIA</a></li>
+        <li class="active"><a href="contact-us.html">CONTACT</a></li>
+        <li><a href="Login.aspx">CLIENT LOGIN</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+        <img class="header-logo" id="logo-main" src="images/logodpc.png" width="250" alt="Logo Thing main logo">
+        <br />
+            <ul class="nav navbar-nav mobileview">
+                <li><a href="index.html">HOME</a></li>
+                <li class="active"><a href="about-us.aspx">ABOUT US</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li ><a href="awards.aspx">AWARDS</a></li>
+                <li><a href="main-client.html">CLIENTELE</a></li>
+                <li><a href="media.html">MEDIA</a></li>
+                <li class="active"><a href="contact-us.html">CONTACT</a></li>
+                <li><a href="Login.aspx">CLIENT LOGIN</a></li>
+            </ul>
+         </div>
+
+
+</div>
+</header><!-- header role="banner" -->
+
+    <!-- Page Content -->
+
+
+        <!-- Page Heading -->
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+
+        <div class="webcolumn">
+         <div class="col-md-6 box">
+             <div style="height: 290px">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8050094757523!2d103.83742895102903!3d1.2913429990535157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da199e7d10a09f%3A0x95adebc436a76582!2sSingapore+238997!5e0!3m2!1sen!2ssg!4v1470730600071" width="100%" height="280px" frameborder="0" style="border:0" allowfullscreen></iframe>
+             </div>
+        &nbsp;
+        <p> 10 Anson Road </p>
+        <p> #10-11 International Plaza </p>
+        <p>    Singapore 079903 </p>
+        <p>    Phone : +[65] 6744 9918 </p>
+        <p>    Fax : +[65] 6744 9981 </p>
+        <p>    Email : inquiry@dpconcept.com.sg </p>
+        <p>    Coy Reg : 201405908W </p>
+         </div>
+
+         <div class="col-md-6 box">
+           <img class="img-responsive" src="images/ContactUs.png" />
+           &nbsp;
+           <form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+               <div class="form-group">
+                   <label for="inputPassword3" class="col-sm-2 control-label">Email</label>
+                   <div class="col-sm-10">
+                       <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                   </div>
+               </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Message</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+         </div>
+
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+
+        <!-- //col-lg-20 -->
+      </div>
+      <div class=" mobilecolumn">
+        <img class="img-responsive" src="images/ContactUs.png">
+       <div class="col-md-6 box">
+
+         &nbsp;
+         <form class="form-horizontal">
+      <div class="form-group">
+      <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+      <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      </div>
+      </div>
+      <div class="form-group">
+      <label for="inputPassword3" class="col-sm-2 control-label">Email</label>
+      <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      </div>
+      </div>
+      <div class="form-group">
+      <label for="inputPassword3" class="col-sm-2 control-label">Message</label>
+      <div class="col-sm-10">
+      <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+      </div>
+      </div>
+
+      <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+      </div>
+      </form>
+       </div>
+       <div class="col-md-6 box">
+           <div style="height: 290px">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8050094757523!2d103.83742895102903!3d1.2913429990535157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da199e7d10a09f%3A0x95adebc436a76582!2sSingapore+238997!5e0!3m2!1sen!2ssg!4v1470730600071" width="100%" height="290" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+      &nbsp;
+      <p> 57 Mohamed Sultan Road </p>
+      <p> #03-05 Sultan Link </p>
+      <p>    Singapore 238997 </p>
+      <p>    Phone : +[65] 6744 9918 </p>
+      <p>    Fax : +[65] 6744 9981 </p>
+      <p>    Email : inquiry@dpconcept.com.sg </p>
+      <p>    Map : company location </p>
+       </div>
+      <!-- /.row -->
+
+      <!-- Projects Row -->
+
+      <!-- //col-lg-20 -->
+      </div>
+    </div>
+
+    <hr> 
+    <hr>
+
+    <div class="footer navbar-fixed-bottom" style="background-color: transparent; max-width: 1000px; margin:auto; position:static">
+        <!-- /.row -->
+        <div class="row" style="max-width: 1000px; margin:auto">
+
+            <div class="col-sm-5">
+                <div class="row">
+                    <p style="margin-left:15px;"><a style="color:gray" href="#">Privacy Policy</a> | <a style="color:gray" href="#"> Terms of Use</a> | <a style="color:gray" href="#"> Sitemap</a></p>
+                    <p></p>
+                    <p></p>
+                </div>
+
+            </div>
+
+            <div class="col-sm-7 copyright-text text-center">
+                <div class="copyright-text text-center">
+                    <p>Copyright &copy;2016 DPC Packaging Pte Ltd . All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script>
+        $(window).resize(function () {
+            if ($(window).height() < 830) {
+                $(".navbar-fixed-bottom").css("position", "static");
+            }
+            else if ($(window).height() > 830) {
+                $(".navbar-fixed-bottom").css("position", "absolute");
+            }
+        });
+
+        var mac = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false;
+
+        if (mac) {
+            console.log("is mac");
+            $(".navbar-fixed-bottom").css("position", "static");
+        }
+        else{
+            $(".navbar-fixed-bottom").css("position", "absolute");
+        }
+</script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

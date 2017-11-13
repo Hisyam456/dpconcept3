@@ -1,0 +1,332 @@
+﻿<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Design Packaging Concept</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <style>
+        @media (max-width:479px) {
+            .para {
+                text-align: center;
+            }
+
+            .text {
+                display: none;
+            }
+
+            .mobile {
+                display: none;
+            }
+
+            .col-md-6 {
+                text-align: -webkit-center;
+                margin: auto;
+                max-width: 500px;
+            }
+            .ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active
+            {
+                height: 650px;
+            }
+        }
+
+        @media only screen and (min-width : 480px) and (max-width : 991px) {
+            .para {
+                text-align: center;
+            }
+
+            .text {
+                display: none;
+            }
+
+            .mobile {
+                display: none;
+            }
+
+            .col-md-6 {
+                text-align: -webkit-center;
+                margin: auto;
+                max-width: 500px;
+            }
+            ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active
+            {
+                height: 400px;
+            }
+        }
+
+        @media (min-width:992px) {
+            .para {
+                text-align: left;
+            }
+
+            .text {
+                display: none;
+            }
+
+            .mobile {
+                display: block;
+            }
+
+            .col-md-6 {
+                text-align: left;
+                margin: auto;
+                max-width: 500px;
+            }
+        }
+
+        figure {
+            margin-bottom: 30px;
+            text-align: -webkit-center;
+            margin-top: 25px;
+        }
+
+        .hovering {
+            box-shadow: 3px 3px 10px 3px rgba(26, 25, 25, 0.75);
+            -moz-box-shadow: 3px 3px 10px 3px rgba(26, 25, 25, 0.75);
+            -webkit-box-shadow: 3px 3px 10px 3px rgba(26, 25, 25, 0.75);
+        }
+
+        .abouthover:hover {
+            -webkit-box-shadow: inset 0 0 0 10px rgba(255,255,255, .4);
+            -moz-box-shadow: inset 0 0 0 10px rgba(255,255,255, .4);
+            box-shadow: inset 0 0 0 10px rgba(255,153,0, 1);
+        }
+
+        .abouthover {
+            background-color: transparent;
+            display: inline-block;
+        }
+
+            .abouthover img:hover {
+                opacity: 0.4;
+            }
+
+        .showcaseimg:hover {
+            background-color: orange;
+        }
+
+        #header-content {
+            bottom: 0;
+        }
+    </style>
+    <script>
+      /* Open when someone clicks on the span element */
+      function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+      }
+
+      /* Close when someone clicks on the "x" symbol inside the overlay */
+      function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <header class="banner">
+            <img class="header-logo" id="logo-main" src="images/logodpc.png" width="250" alt="Logo Thing main logo">
+            <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <p class="navbar-text visible-xs-inline-block">ABOUT US</p>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse" onclick="openNav()">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+                        <ul class="nav navbar-nav main">
+                            <li><a href="index.html">HOME</a></li>
+                            <li class="active"><a href="about-us.aspx">ABOUT US</a></li>
+                            <li><a href="products.html">PRODUCTS</a></li>
+                            <li><a href="awards.html">AWARDS</a></li>
+                            <li><a href="main-client.html">CLIENTELE</a></li>
+                            <li><a href="job-posting.html">CAREERS</a></li>
+                            <li><a href="media.html">MEDIA</a></li>
+                            <li><a href="contact-us.html">CONTACT</a></li>
+                            <li><a href="Login.aspx">LOGIN</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <img class="header-logo" id="logo-main" src="images/logodpc.png" width="250" alt="Logo Thing main logo">
+                    <br />
+                    <ul class="nav navbar-nav mobileview">
+                        <li><a href="index.html">HOME</a></li>
+                        <li class="active"><a href="about-us.aspx">ABOUT US</a></li>
+                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li><a href="awards.html">AWARDS</a></li>
+                        <li><a href="main-client.html">CLIENTELE</a></li>
+                        <li><a href="job-posting.html">CAREERS</a></li>
+                        <li><a href="media.html">MEDIA</a></li>
+                        <li><a href="contact-us.html">CONTACT</a></li>
+                        <li><a href="Login.aspx">LOGIN</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </header><!-- header role="banner" -->
+        <!-- Page Content -->
+        <!-- Page Heading -->
+        <!-- /.row -->
+        <!-- Projects Row -->
+        <div class="row" style="margin-bottom: 30px">
+
+            <div class="col-md-5">
+                <figure>
+                    <div class="abouthover">
+                        <img class="img-responsive hovering" src="images/aboutus/image1.PNG" />
+                    </div>
+                </figure>
+
+                <figure style="text-align:-webkit-right;" class="mobile">
+                    <div class="abouthover">
+                        <img class="img-responsive hovering" src="images/aboutus/image2.PNG" />
+                    </div>
+                </figure>
+
+                <figure class="mobile">
+                    <div class="abouthover">
+                        <img class="img-responsive hovering" src="images/aboutus/image3.PNG" />
+                    </div>
+                </figure>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="post-content">
+                    <h1>Our Company</h1>
+                    <p>It’s all about <strong>YOU</strong>, truly.</p>
+                    <p>Our full spectrum of customization, all polished to perfection in order to build your company into a stronghold.</p>
+                    <p>From creative processes of design and branding, to the technical expertise of structural innovation and production,&nbsp;DPC strives to outdo ourselves each time being your one-stop Centre for solutions.</p>
+                    <p>DPC Packaging Pte Ltd is established both in Singapore and China, we hold our own manufacturing plant in Zhejiang.</p>
+                    <h1>Mission &amp; Values</h1>
+                    <p><strong>Mission</strong>: <br />Be synonymous with both elegance and creativity.</p>
+                    <p><strong>Shared Values</strong>:</p>
+                    <div class="para">
+                        <p>&gt;&gt; Be creative and innovative</p>
+                        <p>&gt;&gt; Aim for product excellence</p>
+                        <p>&gt;&gt; Transforming Dreams into Reality</p>
+                        <p>&gt;&gt; Entrepreneurship</p>
+                        <p>&gt;&gt; Strive to be the best in everything we do</p>
+                        <p>In a nutshell; quality and deliverance!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="max-width:900px; margin: auto">
+
+            <h2>  Join our team </h2>
+            <br /><p>
+                DP Concept’s employment policy considers diversity as a great asset and is committed to eradicating any discrimination linked to age,
+                gender, history, opinion or any other personal characteristics during its recruitment process.
+            </p>
+            <p>If you think you have what it takes to join our team of talents, feel free to contact us at hr@dpconcept.com.sg</p>
+            <p>Applications are to include your resume and portfolio.</p>
+            <p>Please indicate which position you’re applying for</p>
+           
+            <div id="accordion">
+                <h3>Sales Position</h3>
+                <div>
+                    <h4 style="padding-bottom: 10px"><strong>Job Description</strong></h4>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        In dolor ante, euismod in
+                        ullamcorper vitae,
+                        consectetur quis enim. Nam
+                        vehicula mattis tempus.
+                        Cras interdum lacus
+                        rhoncus augue aliquam
+                        accumsan. Sed cursus
+                        tortor sed lacinia convallis.
+                    </p>
+                    <br>
+                    <h4 style="padding-bottom: 10px"><strong>Requirements</strong></h4>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        In dolor ante, euismod in
+                        ullamcorper vitae,
+                        consectetur quis enim. Nam
+                        vehicula mattis tempus.
+                        Cras interdum lacus
+                        rhoncus augue aliquam
+                        accumsan. Sed cursus
+                        tortor sed lacinia convallis.
+                    </p>
+                </div>
+                <h3>Design Position</h3>
+                <div>
+                    <p>
+                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                        suscipit faucibus urna.
+                    </p>
+                </div>
+               
+            </div>
+        </div>
+
+        <!-- /.row -->
+        <!-- Projects Row -->
+        <!-- //col-lg-20 -->
+    </div>
+
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Pagination -->
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Footer -->
+    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+    <script>
+        $("#accordion").accordion({
+            collapsible: true, active: 'none'
+        });
+    </script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

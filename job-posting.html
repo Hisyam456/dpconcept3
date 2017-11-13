@@ -1,0 +1,535 @@
+﻿<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Design and Packaging Concept</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <style>
+        @media (max-width:400px) {
+            .text {
+                display: none;
+            }
+
+            .webcolumn {
+                display: none;
+            }
+
+            .mobilecolumn {
+                display: block;
+                text-align: center;
+            }
+
+            .row {
+                margin: 0;
+            }
+
+            .col-xs-6 {
+                width: 33%;
+                padding: 0px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .container {
+                padding: 0;
+            }
+
+            .col-md-12 {
+                padding: 0;
+            }
+
+            .borderbot {
+                padding-bottom: 10px;
+                border-bottom: 1px solid;
+            }
+             .ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active
+           {
+                 height: 300px;
+               auto-height: false;
+           }
+        }
+
+        @media only screen and (min-width : 401px) and (max-width : 767px) {
+            
+            .mobilecolumn {
+                display: block;
+                text-align: center;
+            }
+
+            .text {
+                display: none;
+            }
+
+            .webcolumn
+            {
+                display:none;
+            }
+            .main
+            {
+                display:none;
+            }
+            .borderbot {
+                padding-bottom: 10px;
+                border-bottom: 1px solid;
+            }
+             .ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active
+           {
+               height: 300px;
+               auto-height: false;
+           }
+        }
+
+        @media only screen and (min-width : 768px) and (max-width : 992px) {
+            /* Styles */
+            .mobilecolumn {
+                display: block;
+                text-align: center;
+            }
+
+            .text {
+                display: none;
+            }
+
+            .webcolumn
+            {
+                display:none;
+            }
+            .main
+            {
+                display:block;
+            }
+             .borderbot {
+                padding-bottom: 10px;
+                border-bottom: 1px solid;
+            }
+              .ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active
+           {
+                 height: 300px;
+               auto-height: false;
+           }
+        }
+
+        @media (min-width:980px) {
+            .mobilecolumn {
+                display: none;
+            }
+
+            .hiddenn {
+                display: none;
+            }
+             .ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active
+           {
+               height: 300px;
+           }
+        }
+
+        #header-content {
+            bottom: 0;
+        }
+
+        .text {
+            border-right: 4px solid;
+            text-align: -webkit-right;
+            padding-top: 400px;
+            margin-right: 30px;
+        }
+
+        .product {
+            margin-bottom: 30px;
+        }
+
+        .desc {
+            padding-top: 100px;
+        }
+
+        .controls {
+            text-align: center;
+        }
+
+        .menucontrol {
+            margin-right: 30px;
+        }
+
+        .accordion-toggle {
+            cursor: pointer;
+        }
+
+        .accordion-content {
+            display: none;
+        }
+
+            .accordion-content.default {
+                display: block;
+            }
+            .ui-state-default
+            {
+                border: 0;
+                background: #ecebe8;
+            }
+            .ui-state-active
+            {
+                background: orange;
+                border: 0;
+            }
+            
+          
+    </style>
+    <script>
+        /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <header class="banner">
+            <img class="header-logo" id="logo-main" src="images/logodpc.png" width="250" alt="Logo Thing main logo">
+            <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <p class="navbar-text visible-xs-inline-block">CAREERS</p>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse" onclick="openNav()">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+                        <ul class="nav navbar-nav main">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about-us.aspx">ABOUT US</a></li>
+                            <li><a href="products.html">PRODUCTS</a></li>
+                            <li><a href="awards.html">AWARDS</a></li>
+                            <li><a href="main-client.html">CLIENTELE</a></li>
+                            <li class="active"><a href="job-posting.html">CAREERS</a></li>
+                            <li><a href="media.html">MEDIA</a></li>
+                            <li><a href="contact-us.html">CONTACT</a></li>
+                            <li><a href="Login.aspx">LOGIN</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <img class="header-logo" id="logo-main" src="images/logodpc.png" width="250" alt="Logo Thing main logo">
+                    <br />
+                    <ul class="nav navbar-nav mobileview">
+                        <li><a href="index.html">HOME</a></li>
+                        <li class="active"><a href="about-us.aspx">ABOUT US</a></li>
+                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li><a href="awards.html">AWARDS</a></li>
+                        <li><a href="main-client.html">CLIENTELE</a></li>
+                        <li><a href="media.html">MEDIA</a></li>
+                        <li><a href="contact-us.html">CONTACT</a></li>
+                        <li><a href="Login.aspx">LOGIN</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </header><!-- header role="banner" -->
+        <!-- Page Content -->
+        <!-- Page Heading -->
+        <!-- /.row -->
+        <!-- Projects Row -->
+
+        <div class="col-md-12">
+            <div class="col-md-3 text">
+                <p> Administrative </p>
+                <p> Sales Manager </p>
+                <p> Project Lead </p>
+                <p> Finance Executive </p>
+            </div>
+
+
+            <div class="col-md-8 webcolumn">
+
+                <div class="col-md-8">
+                    <h1>Administrative</h1>
+                    <br>
+                    <h4 style="padding-bottom: 10px"><strong>Job Description</strong></h4>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        In dolor ante, euismod in
+                        ullamcorper vitae,
+                        consectetur quis enim. Nam
+                        vehicula mattis tempus.
+                        Cras interdum lacus
+                        rhoncus augue aliquam
+                        accumsan. Sed cursus
+                        tortor sed lacinia convallis.
+                    </p>
+                    <br>
+                    <h4 style="padding-bottom: 10px"><strong>Requirements</strong></h4>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        In dolor ante, euismod in
+                        ullamcorper vitae,
+                        consectetur quis enim. Nam
+                        vehicula mattis tempus.
+                        Cras interdum lacus
+                        rhoncus augue aliquam
+                        accumsan. Sed cursus
+                        tortor sed lacinia convallis.
+                    </p>
+
+                </div>
+            </div>
+            <!-- End of Web Column -->
+            <!-- Start of Mobile Column --> 
+        </div>
+        
+        <div class="col-md-12">
+            <div class="row mobilecolumn">
+
+                <h4> ADMINISTRATIVE </h4>
+                <div class="borderbot">
+                    
+                </div>
+                <div id="accordion">
+    <h3><strong>More ></strong></h3>
+    <div>
+        <h4 style="padding-bottom: 10px"><strong>Job Description</strong></h4>
+        <p>
+            Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+            In dolor ante, euismod in
+            ullamcorper vitae,
+            consectetur quis enim. Nam
+            vehicula mattis tempus.
+            Cras interdum lacus
+            rhoncus augue aliquam
+            accumsan. Sed cursus
+            tortor sed lacinia convallis.
+        </p>
+        <br>
+        <h4 style="padding-bottom: 10px"><strong>Requirements</strong></h4>
+        <p>
+            Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+            In dolor ante, euismod in
+            ullamcorper vitae,
+            consectetur quis enim. Nam
+            vehicula mattis tempus.
+            Cras interdum lacus
+            rhoncus augue aliquam
+            accumsan. Sed cursus
+            tortor sed lacinia convallis.
+        </p>
+    </div>
+
+</div>
+            </div>
+            <div class="row mobilecolumn">
+                <h4> SALES MANAGER </h4>
+                <div class="borderbot">
+
+                </div>
+                <div id="accordion2">
+                    <h3><strong>More ></strong></h3>
+                    <div>
+                        <h4 style="padding-bottom: 10px"><strong>Job Description</strong></h4>
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            In dolor ante, euismod in
+                            ullamcorper vitae,
+                            consectetur quis enim. Nam
+                            vehicula mattis tempus.
+                            Cras interdum lacus
+                            rhoncus augue aliquam
+                            accumsan. Sed cursus
+                            tortor sed lacinia convallis.
+                        </p>
+                        <br>
+                        <h4 style="padding-bottom: 10px"><strong>Requirements</strong></h4>
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            In dolor ante, euismod in
+                            ullamcorper vitae,
+                            consectetur quis enim. Nam
+                            vehicula mattis tempus.
+                            Cras interdum lacus
+                            rhoncus augue aliquam
+                            accumsan. Sed cursus
+                            tortor sed lacinia convallis.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mobilecolumn">
+                <h4> PROJECT LEAD </h4>
+                <div class="borderbot">
+
+                </div>
+                <div id="accordion3">
+                    <h3><strong>More ></strong></h3>
+                    <div>
+                        <h4 style="padding-bottom: 10px"><strong>Job Description</strong></h4>
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            In dolor ante, euismod in
+                            ullamcorper vitae,
+                            consectetur quis enim. Nam
+                            vehicula mattis tempus.
+                            Cras interdum lacus
+                            rhoncus augue aliquam
+                            accumsan. Sed cursus
+                            tortor sed lacinia convallis.
+                        </p>
+                        <br>
+                        <h4 style="padding-bottom: 10px"><strong>Requirements</strong></h4>
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            In dolor ante, euismod in
+                            ullamcorper vitae,
+                            consectetur quis enim. Nam
+                            vehicula mattis tempus.
+                            Cras interdum lacus
+                            rhoncus augue aliquam
+                            accumsan. Sed cursus
+                            tortor sed lacinia convallis.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mobilecolumn">
+                <h4> FINANCE EXCECUTIVE </h4>
+                <div class="borderbot">
+
+                </div>
+                <div id="accordion4" >
+                    <h3><strong>More ></strong></h3>
+                    <div>
+                        <h4 style="padding-bottom: 10px"><strong>Job Description</strong></h4>
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            In dolor ante, euismod in
+                            ullamcorper vitae,
+                            consectetur quis enim. Nam
+                            vehicula mattis tempus.
+                            Cras interdum lacus
+                            rhoncus augue aliquam
+                            accumsan. Sed cursus
+                            tortor sed lacinia convallis.
+                        </p>
+                        <br>
+                        <h4 style="padding-bottom: 10px"><strong>Requirements</strong></h4>
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            In dolor ante, euismod in
+                            ullamcorper vitae,
+                            consectetur quis enim. Nam
+                            vehicula mattis tempus.
+                            Cras interdum lacus
+                            rhoncus augue aliquam
+                            accumsan. Sed cursus
+                            tortor sed lacinia convallis.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+             
+        </div>
+
+
+        <!-- /.row -->
+        <!-- Projects Row -->
+        <!-- //col-lg-20 -->
+    </div>
+
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Pagination -->
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+
+            </div>
+        </div>
+        <!-- /.row -->
+    </footer>
+
+    <!-- /.container -->
+    <!-- jQuery -->
+
+    <script src="js/jquery.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+    <script>
+
+        $("#accordion").accordion({
+            collapsible: true, active: 'none'
+        });
+        $("#accordion2").accordion({
+            collapsible: true, active: 'none'
+        });
+        $("#accordion3").accordion({
+            collapsible: true, active: 'none'
+        });
+        $("#accordion4").accordion({
+            collapsible: true, active: 'none'
+        });
+    </script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

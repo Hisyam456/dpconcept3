@@ -1,0 +1,181 @@
+/*!
+ * Start Bootstrap - 4 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: rgb(242,238,235);
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+.navbar-fixed-bottom
+{
+    position: absolute;
+}
+footer {
+    margin: 50px 0;
+}
+ #tableshelf tr td p
+            {
+                color: grey;
+            }
+#navbar-primary.navbar-default {
+  background: transparent;
+  border: none;
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      display: inline-block;
+      float: none;
+      > a {
+        padding-left: 30px;
+        padding-right: 30px;
+        }
+    }
+  }
+}
+#navbar-primary.navbar-default {
+  background: transparent;
+  border: none;
+}
+#navbar-primary.navbar-default .navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+#navbar-primary.navbar-default .navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+#navbar-primary.navbar-default .navbar-nav > li > a {
+  padding-left: 30px;
+  padding-right: 30px;
+   cursor: url(../images/cursor2.png), auto;
+}
+.banner
+{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+.navbar-default .navbar-text
+{
+  color: orange;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #FFA500;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #FFA500;
+  background-color: transparent;
+}
+p.navbar-text {
+  font-size: 22px;
+  margin-top: 8px;
+  padding-bottom: 0;
+  text-align: right;
+  width: 70%;
+  color: orange;
+}
+.header-logo
+{
+    width: 300px;
+}
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: #ecebe8; /* Black fallback color */
+    background-color: #ecebe8; /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 8%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+
+}
+
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #ff8c00;
+
+}
+.navbar-nav>li>a
+{
+    padding-bottom: 20px; 
+    color: dimgray;   
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important; /* Override the font-size specified earlier (36px) for all navigation links */
+}
+@media (max-width:500px) {
+          .text{
+       display:none;
+      }
+      .overlay a {font-size: 20px}
+      .closebtn {
+          font-size: 40px !important;
+          top: 15px;
+          right: 35px;
+      }
+      .nav>li>a:focus, .nav>li>a:hover
+      {
+        font-size: 18px;
+        background-color: transparent;
+      }
+      .navbar-nav>li>a
+      {
+        font-size: 18px;
+      }
+    .main {
+        display: none;
+    }
+       }
+  .footer {
+  bottom: 0;
+  width: 1000px;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: white;
+  margin: auto;
+  color: grey;
+  padding-bottom: 50px;
+}
+  .text-center
+  {
+      text-align: right;
+      padding: 0;
+  }

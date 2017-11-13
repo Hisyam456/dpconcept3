@@ -1,0 +1,849 @@
+﻿<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Design and Packaging Concept</title>
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <style>
+        @media only screen and (min-width : 275px) and (max-width : 380px) {
+            .footer
+            {
+                display: none;
+            }
+             
+          .webcolumn
+          {
+            display: none;
+          }
+          .mobilecolumn
+          {
+            display: block;
+            text-align: center;
+          }
+          .row
+          {
+            margin: 0;
+          }
+
+          .container
+          {
+            padding: 0;
+          }
+          .col-md-8
+          {
+            padding: 0;
+          }
+          .borderbot
+          {
+            padding-bottom: 80px;
+            border-bottom: 1px solid;
+          }
+         
+           .mediabox
+  {
+    margin: 0px;
+  }
+  .mediabox .box {
+  	border: 5px solid #fff;
+  	cursor: pointer;
+  	height: 190px;
+  	float: left;
+  	margin: 5px;
+  	position: relative;
+  	overflow: hidden;
+  	width: 300px;
+  		-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  		-moz-box-shadow: 1px 1px 1px 1px #ccc;
+  		box-shadow: 1px 1px 1px 1px #ccc;
+  }
+  .mediabox .box img {
+  	position: absolute;
+  	left: 0;
+  		-webkit-transition: all 300ms ease-out;
+  		-moz-transition: all 300ms ease-out;
+  		-o-transition: all 300ms ease-out;
+  		-ms-transition: all 300ms ease-out;
+  	transition: all 300ms ease-out;
+  }
+
+  .mediabox .box .captionbrown{
+   background-color: rgba(144, 96, 61, 0.45);
+   position: absolute;
+   color: #fff;
+   z-index: 100;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+   left: 0;
+  }
+
+  .mediabox .box .captiongreen{
+   background-color: rgba(214, 226, 22, 0.45);
+   position: absolute;
+   color: #fff;
+   z-index: 100;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+   left: 0;
+  }
+  /* Caption Common Style */
+  .mediabox .box .caption {
+  	background-color: rgba(0,0,0,0.8);
+  	position: absolute;
+  	color: #fff;
+  	z-index: 100;
+  		-webkit-transition: all 300ms ease-out;
+  		-moz-transition: all 300ms ease-out;
+  		-o-transition: all 300ms ease-out;
+  		-ms-transition: all 300ms ease-out;
+  		transition: all 300ms ease-out;
+  	left: 0;
+  }
+  /** Caption 3: Fade **/
+.mediabox .box .fade-caption, .col-md-5 .box .scale-caption  {
+	opacity: 1;
+	width: 300px;
+	height: 200px;
+	text-align: left;
+	padding: 15px;
+}
+/** Fade Caption :hover Behaviour **/
+.mediabox .box:hover .fade-caption, .col-md-5 .box:hover .scale-caption  {
+	opacity: 1;
+}
+        }
+    @media only screen and (min-width : 381px) and (max-width : 479px) {
+        .footer
+        {
+            display: none;
+        }
+          .text{
+           display:none;
+            }
+          .webcolumn
+          {
+            display: none;
+          }
+          .mobilecolumn
+          {
+            display: block;
+            text-align: center;
+          }
+          .row
+          {
+            margin: 0;
+          }
+
+          .container
+          {
+            padding: 0;
+          }
+          .col-md-8
+          {
+            padding: 0;
+          }
+          .borderbot
+          {
+            padding-bottom: 80px;
+            border-bottom: 1px solid;
+          }
+          .mediabox
+  {
+    margin: 0px;
+    margin-left: 50px;
+  }
+  .mediabox .box {
+  	border: 5px solid #fff;
+  	cursor: pointer;
+  	height: 190px;
+  	float: left;
+  	margin: 5px;
+  	position: relative;
+  	overflow: hidden;
+  	width: 300px;
+  		-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  		-moz-box-shadow: 1px 1px 1px 1px #ccc;
+  		box-shadow: 1px 1px 1px 1px #ccc;
+  }
+  .mediabox .box img {
+  	position: absolute;
+  	left: 0;
+  		-webkit-transition: all 300ms ease-out;
+  		-moz-transition: all 300ms ease-out;
+  		-o-transition: all 300ms ease-out;
+  		-ms-transition: all 300ms ease-out;
+  	transition: all 300ms ease-out;
+  }
+
+  .mediabox .box .captionbrown{
+   background-color: rgba(144, 96, 61, 0.45);
+   position: absolute;
+   color: #fff;
+   z-index: 100;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+   left: 0;
+  }
+
+  .mediabox .box .captiongreen{
+   background-color: rgba(214, 226, 22, 0.45);
+   position: absolute;
+   color: #fff;
+   z-index: 100;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+   left: 0;
+  }
+  /* Caption Common Style */
+  .mediabox .box .caption {
+  	background-color: rgba(0,0,0,0.8);
+  	position: absolute;
+  	color: #fff;
+  	z-index: 100;
+  		-webkit-transition: all 300ms ease-out;
+  		-moz-transition: all 300ms ease-out;
+  		-o-transition: all 300ms ease-out;
+  		-ms-transition: all 300ms ease-out;
+  		transition: all 300ms ease-out;
+  	left: 0;
+  }
+  /** Caption 3: Fade **/
+.mediabox .box .fade-caption, .col-md-5 .box .scale-caption  {
+	opacity: 1;
+	width: 300px;
+	height: 200px;
+	text-align: left;
+	padding: 15px;
+}
+/** Fade Caption :hover Behaviour **/
+.mediabox .box:hover .fade-caption, .col-md-5 .box:hover .scale-caption  {
+	opacity: 1;
+}
+    } @media only screen
+             and (min-width : 480px)
+             and (max-width : 691px) {
+
+                .footer
+                {
+                    display: none;
+                }
+               .row
+               {
+                 padding-left: 0;
+               }
+               .text{
+                display:none;
+                 }
+               .webcolumn
+               {
+                 display: none;
+               }
+               .mobilecolumn
+               {
+                 display: block;
+                 text-align: center;
+               }
+               .row
+               {
+                 margin: 0;
+               }
+
+               .container
+               {
+                 padding: 0;
+               }
+               .col-md-8
+               {
+                 padding: 0;
+               }
+               .borderbot
+               {
+                 padding-bottom: 80px;
+                 border-bottom: 1px solid;
+               }
+               .mediabox
+  {
+    margin: 0px;
+    margin-left:115px;
+  }
+  .mediabox .box {
+  	border: 5px solid #fff;
+  	cursor: pointer;
+  	height: 190px;
+  	float: left;
+  	margin: 5px;
+  	position: relative;
+  	overflow: hidden;
+  	width: 300px;
+  		-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  		-moz-box-shadow: 1px 1px 1px 1px #ccc;
+  		box-shadow: 1px 1px 1px 1px #ccc;
+  }
+  .mediabox .box img {
+  	position: absolute;
+  	left: 0;
+  		-webkit-transition: all 300ms ease-out;
+  		-moz-transition: all 300ms ease-out;
+  		-o-transition: all 300ms ease-out;
+  		-ms-transition: all 300ms ease-out;
+  	transition: all 300ms ease-out;
+  }
+
+  .mediabox .box .captionbrown{
+   background-color: rgba(144, 96, 61, 0.45);
+   position: absolute;
+   color: #fff;
+   z-index: 100;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+   left: 0;
+  }
+
+  .mediabox .box .captiongreen{
+   background-color: rgba(214, 226, 22, 0.45);
+   position: absolute;
+   color: #fff;
+   z-index: 100;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+   left: 0;
+  }
+  /* Caption Common Style */
+  .mediabox .box .caption {
+  	background-color: rgba(0,0,0,0.8);
+  	position: absolute;
+  	color: #fff;
+  	z-index: 100;
+  		-webkit-transition: all 300ms ease-out;
+  		-moz-transition: all 300ms ease-out;
+  		-o-transition: all 300ms ease-out;
+  		-ms-transition: all 300ms ease-out;
+  		transition: all 300ms ease-out;
+  	left: 0;
+  }
+  /** Caption 3: Fade **/
+.mediabox .box .fade-caption, .col-md-5 .box .scale-caption  {
+	opacity: 1;
+	width: 300px;
+	height: 200px;
+	text-align: left;
+	padding: 15px;
+}
+/** Fade Caption :hover Behaviour **/
+.mediabox .box:hover .fade-caption, .col-md-5 .box:hover .scale-caption  {
+	opacity: 1;
+}
+             }
+   @media only screen
+           and (min-width : 692px)
+           and (max-width : 979px) {
+           /* Styles */
+          .footer
+          {
+              display: none;
+          }
+  .mobilecolumn
+  {
+    display: none;
+  }
+  .text
+  {
+    display: none;
+  }
+  .mediabox
+  {
+    margin: 0px;
+  }
+  .mediabox .box {
+  	border: 5px solid #fff;
+  	cursor: pointer;
+  	height: 190px;
+  	float: left;
+  	margin: 5px;
+  	position: relative;
+  	overflow: hidden;
+  	width: 300px;
+  		-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  		-moz-box-shadow: 1px 1px 1px 1px #ccc;
+  		box-shadow: 1px 1px 1px 1px #ccc;
+  }
+  .mediabox .box img {
+  	position: absolute;
+  	left: 0;
+  		-webkit-transition: all 300ms ease-out;
+  		-moz-transition: all 300ms ease-out;
+  		-o-transition: all 300ms ease-out;
+  		-ms-transition: all 300ms ease-out;
+  	transition: all 300ms ease-out;
+  }
+
+  .mediabox .box .captionbrown{
+   background-color: rgba(144, 96, 61, 0.45);
+   position: absolute;
+   color: #fff;
+   z-index: 100;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+   left: 0;
+  }
+
+  .mediabox .box .captiongreen{
+   background-color: rgba(214, 226, 22, 0.45);
+   position: absolute;
+   color: #fff;
+   z-index: 100;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+   left: 0;
+  }
+  /* Caption Common Style */
+  .mediabox .box .caption {
+  	background-color: rgba(0,0,0,0.8);
+  	position: absolute;
+  	color: #fff;
+  	z-index: 100;
+  		-webkit-transition: all 300ms ease-out;
+  		-moz-transition: all 300ms ease-out;
+  		-o-transition: all 300ms ease-out;
+  		-ms-transition: all 300ms ease-out;
+  		transition: all 300ms ease-out;
+  	left: 0;
+  }
+  /** Caption 3: Fade **/
+.mediabox .box .fade-caption, .col-md-5 .box .scale-caption  {
+	opacity: 0;
+	width: 300px;
+	height: 200px;
+	text-align: left;
+	padding: 15px;
+}
+/** Fade Caption :hover Behaviour **/
+.mediabox .box:hover .fade-caption, .col-md-5 .box:hover .scale-caption  {
+	opacity: 1;
+}
+  }
+  @media (min-width:980px) {
+  .mobilecolumn
+  {
+  display: none;
+  }
+  .hiddenn
+  {
+  display: none;
+  }
+  .mediabox
+  {
+    margin: 20px;
+  }
+  .mediabox .box {
+  	border: 5px solid #fff;
+  	cursor: pointer;
+  	height: 190px;
+  	float: left;
+  	margin: 5px;
+  	position: relative;
+  	overflow: hidden;
+  	width: 300px;
+  		-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  		-moz-box-shadow: 1px 1px 1px 1px #ccc;
+  		box-shadow: 1px 1px 1px 1px #ccc;
+  }
+  .mediabox .box img {
+  	position: absolute;
+  	left: 0;
+  		-webkit-transition: all 300ms ease-out;
+  		-moz-transition: all 300ms ease-out;
+  		-o-transition: all 300ms ease-out;
+  		-ms-transition: all 300ms ease-out;
+  	transition: all 300ms ease-out;
+  }
+  .mediabox .box .captionbrown{
+   background-color: rgba(144, 96, 61, 0.45);
+   position: absolute;
+   color: #fff;
+   z-index: 100;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+   left: 0;
+  }
+
+  .mediabox .box .captiongreen{
+   background-color: rgba(214, 226, 22, 0.45);
+   position: absolute;
+   color: #fff;
+   z-index: 100;
+     -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+     -o-transition: all 300ms ease-out;
+     -ms-transition: all 300ms ease-out;
+     transition: all 300ms ease-out;
+   left: 0;
+  }
+  /* Caption Common Style */
+  .mediabox .box .caption {
+  	background-color: rgba(0,0,0,0.8);
+  	position: absolute;
+  	color: #fff;
+  	z-index: 100;
+  		-webkit-transition: all 300ms ease-out;
+  		-moz-transition: all 300ms ease-out;
+  		-o-transition: all 300ms ease-out;
+  		-ms-transition: all 300ms ease-out;
+  		transition: all 300ms ease-out;
+  	left: 0;
+  }
+  /** Caption 3: Fade **/
+.mediabox .box .fade-caption, .col-md-5 .box .scale-caption  {
+	opacity: 0;
+	width: 300px;
+	height: 200px;
+	text-align: left;
+	padding: 15px;
+}
+/** Fade Caption :hover Behaviour **/
+.mediabox .box:hover .fade-caption, .col-md-5 .box:hover .scale-caption  {
+	opacity: 1;
+}
+  }
+
+  .text
+  {
+    border-right: 4px solid;
+    text-align: right;
+    padding-top: 350px;
+    margin-right: 30px;
+  }
+  .product
+  {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  /* Image Box Style */
+
+
+h2
+{
+  text-align: center;
+  padding-top: 20px;
+}
+#navbar-primary.navbar-default {
+  background: transparent;
+  border: none;
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      display: inline-block;
+      float: none;
+      > a {
+        padding-left: 30px;
+        padding-right: 30px;
+        }
+    }
+  }
+}
+#navbar-primary.navbar-default {
+  background: transparent;
+  border: none;
+}
+#navbar-primary.navbar-default .navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+#navbar-primary.navbar-default .navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+#navbar-primary.navbar-default .navbar-nav > li > a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.banner
+{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+.nav-pills>li
+{
+    float: none;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+    color: orange; 
+    background-color: transparent;
+}
+a
+{
+    color: #333;
+}
+  </style>
+    <script>
+    /* Open when someone clicks on the span element */
+    function openNav() {
+        [].forEach.call(document.querySelectorAll('.row'), function (el) {
+            el.style.visibility = 'hidden';
+        });
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+        [].forEach.call(document.querySelectorAll('.row'), function (el) {
+            el.style.visibility = 'visible';
+        });
+        document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Navigation -->
+    <header class="banner">
+  <img class="header-logo"id="logo-main" src="images/logodpc.png" width="250" alt="Logo Thing main logo">
+  <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <p class="navbar-text visible-xs-inline-block">MEDIA</p>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse" onclick="openNav()">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+      <ul class="nav navbar-nav main">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about-us.aspx">ABOUT US</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="awards.aspx">AWARDS</a></li>
+        <li><a href="main-client.html">CLIENTELE</a></li>
+        <li class="active"><a href="media.html">MEDIA</a></li>
+        <li><a href="contact-us.html">CONTACT</a></li>
+        <li><a href="Login.aspx">CLIENT LOGIN</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+  <div id="myNav" class="overlay">
+
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+      <!-- Overlay content -->
+      <div class="overlay-content">
+          <img class="header-logo" id="logo-main" src="images/logodpc.png" width="250" alt="Logo Thing main logo">
+          <br />
+              <ul class="nav navbar-nav mobileview">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about-us.aspx">ABOUT US</a></li>
+                  <li><a href="products.html">PRODUCTS</a></li>
+                  <li ><a href="awards.aspx">AWARDS</a></li>
+                  <li><a href="main-client.html">CLIENTELE</a></li>
+                  <li class="active"><a href="media.html">MEDIA</a></li>
+                  <li><a href="contact-us.html">CONTACT</a></li>
+                  <li><a href="Login.aspx">CLIENT LOGIN</a></li>
+              </ul>
+           </div>
+
+
+  </div>
+  </header><!-- header role="banner" -->
+
+    <!-- Page Content -->
+
+        <!-- Page Heading -->
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+         <div class="col-md-3 text filters">
+           
+             <ul class="nav nav-pills">
+                 <li class="active"><a href="#" data-filter="*">All</a></li>
+                 <li><a href="#" data-filter=".2016">2016</a></li>
+                 <li><a href="#" data-filter=".2012">2012</a></li>
+                 <li><a href="#" data-filter=".2011">2011</a></li>
+                 
+             </ul>
+         </div>
+
+         <div class="col-md-8 isotope-container-fitrows row grid-space-10" >
+           <div class="row">
+             <div class="col-md-5 mediabox isotope-item 2016">
+                 <div id="box-3" class="box">
+                     <img id="image-3" class="img-responsive" src="images/media/FHA Exhibition 2016_2012/457287_230557663711240_2092082273_o.jpg" />
+                     <a href="media-2016-fha.html">
+                         <span class="captionbrown fade-caption">
+                             <h2>FHA Exhibition 2016</h2>
+                         </span>
+                     </a>
+                 </div>
+          </div>
+
+           <div class="col-md-5 mediabox isotope-item 2012">
+               <div id="box-3" class="box">
+                   <img id="image-3" class="img-responsive" src="images/media/Awards2012/59383_307582266008779_110831694_n.jpg" />
+                   <a href="media-2012-awards.html">
+                   <span class="captionbrown fade-caption ">
+                       <h2>Awards 2012</h2>
+                   </span>
+                   </a>
+               </div>
+           </div>
+         </div>
+
+         <div class="row">
+         <div class="col-md-5 mediabox isotope-item 2011">
+             <div id="box-3" class="box">
+                 <img id="image-3" class="img-responsive" src="images/media/Singapore Gifts & Premiums Fair (SGPFair) 2011/317003_147328885367452_1322219447_n-1.jpg" />
+                 <a href="media-2011-sgp.html">
+                     <span class="captionbrown fade-caption ">
+                         <h2>Singapore Gifts and Premiums Fair 2011</h2>
+                     </span>
+                </a>
+            </div>
+         </div>
+         
+       </div>
+        <!-- Footer -->
+
+    </div>
+    <!-- /.container -->
+      
+  </div>
+
+    <hr />
+    <hr />
+    <div class="footer navbar-fixed-bottom" style="background-color: transparent; max-width: 1000px; margin:auto; position:static">
+        <!-- /.row -->
+        <div class="row" style="max-width: 1000px; margin:auto">
+
+            <div class="col-sm-5">
+                <div class="row">
+                    <p style="margin-left:15px;"><a style="color:gray" href="#">Privacy Policy</a> | <a style="color:gray" href="#"> Terms of Use</a> | <a style="color:gray" href="#"> Sitemap</a></p>
+                    <p></p>
+                    <p></p>
+                </div>
+
+            </div>
+
+            <div class="col-sm-7 copyright-text text-center">
+                <div class="copyright-text text-center">
+                  <p>Copyright &copy;2016 DPC Packaging Pte Ltd . All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.browser.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script>
+        $(window).resize(function () {
+            if ($(window).height() < 830) {
+                $(".navbar-fixed-bottom").css("position", "static");
+            }
+            else if ($(window).height() > 830) {
+                $(".navbar-fixed-bottom").css("position", "absolute");
+            }
+        });
+
+        var mac = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false;
+
+        if (mac) {
+            console.log("is mac");
+            $(".navbar-fixed-bottom").css("position", "static");
+        }
+        else{
+            $(".navbar-fixed-bottom").css("position", "absolute");
+        }
+        var hashID = "." + window.location.hash.substring(1);
+
+        if (window.location.hash) { //If we have a hash filter by it, if not don't try
+            $container.isotope({
+                itemSelector: '.item',
+                filter: hashID
+            });
+        } else {
+            $container.isotope({
+                itemSelector: '.item'
+            });
+        }
+        // initiating the isotope page
+        $(window).load(function () {
+
+            // Store # parameter and add "." before hash
+            var hashID = "." + window.location.hash.substring(1);
+
+            //  the current version of isotope, the hack works in v2 also
+            var $container = $('#container');
+
+            $container.imagesLoaded(function () {
+                $container.isotope({
+                    itemSelector: ".item",
+                    filter: hashID, // the variable filter hack
+                });
+            });
+
+        });
+</script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/modernizr.js"></script>
+    
+    <script src="js/template.js"></script>
+    
+</body>
+
+</html>
